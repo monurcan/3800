@@ -128,6 +128,7 @@ HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
   var message = won ? "Helal!" : "Oyun Bitti!";
   if(won == 1){
+    alert("sd");
     $("body").html('<div id="hll"><iframe width="0" height="0" src="http://www.youtube.com/embed/U1ei5rwO7ZI?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe><img src="http://grafikdesign.files.wordpress.com/2014/03/recep-tayyip-erdogan-006.png"><h3>HELAL!</h3></div>');
   }
   this.messageContainer.classList.add(type);
